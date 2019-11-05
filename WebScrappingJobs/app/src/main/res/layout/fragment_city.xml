@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/city_list_fragment"></ListView>
+
+    <!--  <com.google.android.material.bottomnavigation.BottomNavigationView
+          android:id="@+id/bottom_navigationcity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_alignParentStart="true"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="0dp"
+          android:layout_marginEnd="0dp"
+          android:layout_marginBottom="0dp"
+          android:background="?android:attr/windowBackground"
+          android:backgroundTint="@color/yello"
+          app:itemBackground="@color/colorPrimary"
+          app:itemIconTint="@color/yello"
+          app:itemTextColor="@color/white"
+          app:menu="@menu/navigation" />
+  -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="112dp"
+        android:layout_height="93dp"
+        android:layout_alignStart="@+id/city_list_fragment"
+
+        android:layout_alignTop="@+id/city_list_fragment"
+        android:layout_alignEnd="@+id/city_list_fragment"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="341dp"
+        android:progressDrawable="@drawable/circular_progress_bar" />
+</RelativeLayout>
